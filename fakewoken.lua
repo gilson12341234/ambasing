@@ -2,7 +2,7 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/gilson12341234/ambasing/main/fortnite%20X.lua"))() -- Could Also Save It In Your Workspace And Do loadfile("Library.lua")()
 -- // Variables
 -- // Init
-local Window = Library:New({Name = nome})
+local Window = Library:New({Name = "VenezuelaHub: Fakewoken3"})
 --
 local AutoParry = Window:Page({Name = "AutoParry"})
 local Player = Window:Page({Name = "Player"})
