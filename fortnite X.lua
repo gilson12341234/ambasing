@@ -1,7 +1,3 @@
---[[ Credits
-    Matas#3535 @matas - Created UI
-    bored#9316 @wally hub user - Helped make library
-]]
 -- // Variables
 local ws = game:GetService("Workspace")
 local uis = game:GetService("UserInputService")
@@ -19,9 +15,9 @@ local library = {
     ended = {},
     changed = {},
     folders = {
-        main = "splix",
-        assets = "splix/assets",
-        configs = "splix/configs"
+        main = "VenezuelaHub",
+        assets = "Venezuela/assets",
+        configs = "Venezuela/configs"
     },
     shared = {
         initialized = false,
@@ -48,16 +44,16 @@ local sections = {}
 -- Theme Variables
 --local themes = {}
 local theme = {
-    accent = Color3.fromRGB(50, 100, 255),
-    light_contrast = Color3.fromRGB(30, 30, 30),
-    dark_contrast = Color3.fromRGB(20, 20, 20),
-    outline = Color3.fromRGB(0, 0, 0),
-    inline = Color3.fromRGB(50, 50, 50),
+    accent = Color3.fromRGB(221, 199, 252),
+    light_contrast = Color3.fromRGB(181, 159, 212),
+    dark_contrast = Color3.fromRGB(142, 109, 189),
+    outline = Color3.fromRGB(27, 29, 39),
+    inline = Color3.fromRGB(96, 96, 118),
     textcolor = Color3.fromRGB(255, 255, 255),
     textborder = Color3.fromRGB(0, 0, 0),
     cursoroutline = Color3.fromRGB(10, 10, 10),
-    font = 2,
-    textsize = 13
+    font = code,
+    textsize = 17
 }
 -- // Utility Functions
 do
